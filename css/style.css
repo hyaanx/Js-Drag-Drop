@@ -98,6 +98,12 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+/* تأكد أن العناصر الجديدة تظهر دائمًا تحت العنوان */
+.box {
+  display: flex;
+  flex-direction: column;
+}
 .item {
   background: #7165e5;
   margin: 6px 0;
